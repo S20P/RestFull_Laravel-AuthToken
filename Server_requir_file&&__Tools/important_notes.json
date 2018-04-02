@@ -1,0 +1,101 @@
+{
+    "Project_name": "KrishiKalyan",
+
+    "Url":"http://snaplockandroid.com/krishi/",
+
+    "API_Details":{
+          "Login user":{
+              "Login  User API " : "http://snaplockandroid.com/krishi/api/auth/login",
+              "Method":"POST"
+          },
+          "create user":{
+              "Create New User API " : "http://snaplockandroid.com/krishi/api/user/create",
+              "Method":"POST",
+              "body":{
+                    "username"
+                    "password"
+              }
+          },
+          "List all user":{
+              "Get list of all User API " : "http://snaplockandroid.com/krishi/api/user",
+              "Method":"GET",
+              "Header reuire" : {
+                "Authorization":"bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9zbmFwbG9ja2FuZHJvaWQuY29tXC9rcmlzaGlcL2FwaVwvYXV0aFwvbG9naW4iLCJpYXQiOjE1MjI0NzM2NTcsImV4cCI6MTUyMjQ3NzI1NywibmJmIjoxNTIyNDczNjU3LCJqdGkiOiJYdVB0dnRjTk4yR2pGaDE5Iiwic3ViIjo2LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.FQ3qLlf5bSup7YlaXvBOnBO3M6UW4wo_EPY7EFt1zuU"
+              }
+          },
+          "List Specific user":{
+              "Get specific User API " : "http://snaplockandroid.com/krishi/api/user/2",
+              "Method":"GET",
+              "Header reuire" : {
+                "Authorization":"bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9zbmFwbG9ja2FuZHJvaWQuY29tXC9rcmlzaGlcL2FwaVwvYXV0aFwvbG9naW4iLCJpYXQiOjE1MjI0NzM2NTcsImV4cCI6MTUyMjQ3NzI1NywibmJmIjoxNTIyNDczNjU3LCJqdGkiOiJYdVB0dnRjTk4yR2pGaDE5Iiwic3ViIjo2LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.FQ3qLlf5bSup7YlaXvBOnBO3M6UW4wo_EPY7EFt1zuU"
+              }
+          },
+          "Update user":{
+              "Update User API " : "http://snaplockandroid.com/krishi/api/user/update/2",
+              "Method":"POST",
+              "Header reuire" : {
+                "Authorization":"bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9zbmFwbG9ja2FuZHJvaWQuY29tXC9rcmlzaGlcL2FwaVwvYXV0aFwvbG9naW4iLCJpYXQiOjE1MjI0NzM2NTcsImV4cCI6MTUyMjQ3NzI1NywibmJmIjoxNTIyNDczNjU3LCJqdGkiOiJYdVB0dnRjTk4yR2pGaDE5Iiwic3ViIjo2LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.FQ3qLlf5bSup7YlaXvBOnBO3M6UW4wo_EPY7EFt1zuU"
+              },
+              "body":{
+                    "username"
+                    "password"
+              }
+          },
+          "Delete Specific user":{
+              "Get specific User API " : "http://snaplockandroid.com/krishi/api/user/delete/2",
+              "Method":"DELETE",
+              "Header reuire" : {
+                "Authorization":"bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9zbmFwbG9ja2FuZHJvaWQuY29tXC9rcmlzaGlcL2FwaVwvYXV0aFwvbG9naW4iLCJpYXQiOjE1MjI0NzM2NTcsImV4cCI6MTUyMjQ3NzI1NywibmJmIjoxNTIyNDczNjU3LCJqdGkiOiJYdVB0dnRjTk4yR2pGaDE5Iiwic3ViIjo2LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.FQ3qLlf5bSup7YlaXvBOnBO3M6UW4wo_EPY7EFt1zuU"
+              },
+          "Logout user":{
+              "Logout current User API " : "http://snaplockandroid.com/krishi/api/auth/logout",
+              "Method":"POST",
+              "Header reuire" : {
+                "Authorization":"bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9zbmFwbG9ja2FuZHJvaWQuY29tXC9rcmlzaGlcL2FwaVwvYXV0aFwvbG9naW4iLCJpYXQiOjE1MjI0NzM2NTcsImV4cCI6MTUyMjQ3NzI1NywibmJmIjoxNTIyNDczNjU3LCJqdGkiOiJYdVB0dnRjTk4yR2pGaDE5Iiwic3ViIjo2LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.FQ3qLlf5bSup7YlaXvBOnBO3M6UW4wo_EPY7EFt1zuU"
+              }
+          },
+  },
+
+   "Error Message":{
+       "Method":"Method not Allow.",
+       "password": [
+                   "The password must be at least 6 characters.",
+                   "The password field is required."
+               ],
+       "username": [
+               "The username field is required."
+           ],
+       "Query":[
+                "Data not found",
+                "Unauthorised"
+              ],
+      "Token" :[
+                 "Token is Invalid",
+                 "There is problem with your token",
+                 "Token is Expired",
+          ]
+
+   },
+   "Success Message":{
+
+       "Create user":[{
+                       "status": "200",
+                       "code": "0",
+                       "message": "User Inserted Successfully"
+                     }],
+       "update user":[{
+                       "status": "201",
+                       "code": "0",
+                       "message": "User Updated Successfully"
+                     }],
+
+   }
+
+
+
+
+
+
+
+
+}
